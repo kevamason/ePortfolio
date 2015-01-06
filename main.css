@@ -1,22 +1,11 @@
-.navbar-brand img {
-	padding: 10px;
-	border-radius: 3px;
+body { 
+	padding-bottom: 70px; 
+}
+
+.brand img {
+	margin: 10px;
 	max-width: 100%;
-	max-height: 100px;
+	max-height: 50px;
 	width: auto;
-	float: left;
 	position: relative;
-}
-
-.nav > li {
-	display: inline-block;
-	position: relative;
-}
-
-img {
-	vertical-align: middle;
-}
-
-.navbar-nav {
-	float: right;
 }
