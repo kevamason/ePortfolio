@@ -1,3 +1,48 @@
 - photoshop
 	- KMbrand.png (transparent)
 
+napontaratan.com
+vladzaharia.com
+jwiebe.ca
+merki.ca
+
+Includes information such as:
+- ABOUT: name, bio (who I am, athletic background, education, what I'm aspiring towards)
+	like Vlad's
+- SKILLS: Code (ranking - Languages & Tools), Strategy (list - management, design methodologies, team building, )
+	like Napon's
+- EXPERIENCE: 
+	like Vlad's (circle, description, chronological)
+	Work Experience
+		- Visier (Product Development)
+		- WRASA (Head & Reg coach)
+			- coaching retreat
+			- Hall of Fame
+		- HollisWealth (Book Keeper -> Web Developer)
+	Volunteer Experience
+		- JDC West
+		- VP Logistics
+- PROJECTS & PROGRAMS: Past Projects
+	square icons w/ expanding info like Wiebe's
+	- personal projects
+		- ePortfolio
+	- school projects
+		- HCI
+		- cs304
+		- cs310
+	- volunteer leadership program
+- HOBBIES & INTERESTS (maybe)
+	photos
+	- Athletic
+		- Swimming
+		- Snowboarding
+		- Slacklining
+		- Tough Mudder
+		- Rock Climbing
+		- Yoga
+		- Cycling
+	- Photography (& Traveling)
+		- NYC photo
+		- Kate Slacklining
+- CONTACT: Contact Information
+	like Merki's
