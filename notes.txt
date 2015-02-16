@@ -6,6 +6,8 @@ vladzaharia.com
 jwiebe.ca
 merki.ca
 
+Parallax scrolling: http://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641
+
 Includes information such as:
 - ABOUT: name, bio (who I am, athletic background, education, what I'm aspiring towards)
 	like Vlad's
