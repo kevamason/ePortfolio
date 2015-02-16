@@ -5,15 +5,21 @@
 	<!-- new KM brand needed -->
 	<link rel="shortcut icon" href="">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="stylesheets/main.css">
-
-
 
 </head>
 
 <body>
 
-	<div id="header" class="container">
+	<div id="header" class="container-fluid">
 
 		<!-- does this need to be in a div? -->
 		<div class="intro-image"></div>
@@ -47,7 +53,7 @@
 
 
 
-	<div id="about" class="container">
+	<div id="about" class="container-fluid">
 		<h1 class="title">About Me</h1>
 
 		<!-- Justify photo left ... or layer on top?-->
@@ -65,10 +71,10 @@
 
 
 
-	<div id="skills" class="container">
+	<div id="skills" class="container-fluid">
 		<h1 class="title">Skills</h1>
 
-		<div class="eight columns">
+		<div class="col-sm-6">
 			<h3>Code</h3>
 
 			<table class="skill-table" boarder="0" width="100%" height="100%">
@@ -104,7 +110,7 @@
 
 		</div>
 
-		<div class="eight columns">
+		<div class="col-sm-6">
 			<h3>Other</h3>
 
 			<table class="skill-table" boarder="0" width="100%" height="100%">
@@ -144,12 +150,12 @@
 
 
 
-	<div id="experience" class="container">
-		<h1 class="title">Skills</h1>
+	<div id="experience" class="container-fluid">
+		<h1 class="title">Experience</h1>
 
 		<h2>Work Experience</h2>
 
-		<div class="sixteen columns">
+		<div class="col-sm-12">
 			<ul class="work-list">
 				<li>
 					<img src="Visier Logo img" alt="icon_01" />
@@ -183,7 +189,7 @@
 
 		<h2>Volunteer Experience</h2>
 
-		<div class="sixteen columns">
+		<div class="col-sm-12">
 			<ul class="work-list">
 				<li>
 					<img src="JDCWestImg" alt="icon_03" />
@@ -212,7 +218,7 @@
 
 
 
-	<div id="projects" class="container">
+	<div id="projects" class="container-fluid">
 		<h1 class="title">Projects & Programs</h1>
 
 		
@@ -224,7 +230,7 @@
 
 
 
-	<div id="contact" class="container">
+	<div id="contact" class="container-fluid">
 		<h1 class="title">Contact</h1>
 		
 
@@ -242,10 +248,12 @@
 
 </body>
 
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-	</script>
-
+<!-- LiveReload -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+</script>
+<!-- jQuery -->
 <script src="js/jquery-1.11.2.js"></script>
+
 <script type="text/javascript" src="js/main.js"></script>
 
 </html>
