@@ -1,5 +1,4 @@
-- photoshop
-	- KMbrand.png (transparent)
+change to mobile mode at width 775px
 
 napontaratan.com
 vladzaharia.com
