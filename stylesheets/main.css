@@ -150,6 +150,24 @@ span {
 	background-color: #FAFAFA;
 }
 
+.about-info {
+	display: table;
+	margin-left: 2em;
+}
+
+.about-info p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#about img {
+	display: table-cell;
+	height: 400px;
+	width: auto;
+	margin-left: 2em;
+}
+
+
 
 /* Skills
 ================================================== */
@@ -177,7 +195,7 @@ span {
 /* Experience
 ================================================== */
 #experience.container-fluid {
-	background-color: #FAFAFA;
+	background-color: #F7F7F7;
 }
 
 .work-list img {
