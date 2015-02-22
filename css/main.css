@@ -52,6 +52,12 @@ span {
 	font-family: 'Ubuntu';
 }
 
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
 
 /* #General
 ================================================== */
@@ -78,12 +84,11 @@ span {
 ================================================== */
 #home {
 	width: 100%;
-	height: 600px;
-	text-align: center;
+	height: 500px;
 }
 
 .intro-img {
-	background-image: url('../images/introImg.png');
+	background-image: url('../images/introExpanded4.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -92,19 +97,30 @@ span {
 	position: absolute;
 	z-index: -10;
 	width: 100%;
-	height: 600px;	
+	height: 500px;	
 }
 
 #home .intro {
 	position: relative;
-	color: white;
-	text-shadow: 0px 0px 15px #000;
+	color: #fff;
 	z-index: -5;
 	padding-top: 150px;
+	margin-left: 10%;
+	height: 500px;
+	width: 305px;
+	padding-left: 2em;
+	padding-right: auto;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 #home h1 {
 	text-transform: none;
+	text-align: left;
+	font-weight: 400;
+}
+
+#home p {
+	font-size: 110%;
 }
 
 
@@ -247,9 +263,13 @@ span {
 
 /* Projects & Programs
 ================================================== */
-
 	/*see component.css*/
 
+#projects p {
+	text-align: center;
+	font-size: 140%;
+	font-weight: 200;
+}
 
 /* Contact
 ================================================== */
@@ -273,10 +293,12 @@ span {
 }
 
 #contact p {
+	color: #000;
 	margin-left: 55%;
 	margin-top: 5%;
 	position: absolute;
 	text-align: right;
+	font-size: 110%;
 }
 
 #contact .info {
@@ -361,8 +383,8 @@ span {
 }
 
 #contact #github{
-	background-color:#000;
-	color:#ccc;
+	background-color: #000;
+	color: #ccc;
 }
 
 #contact #github span {
@@ -398,7 +420,6 @@ span {
 #contact #facebook:hover span {
 	color:#b8c0d7;
 }
-
 #contact #facebook:hover i {
 	color:#8391b9;
 }
