@@ -131,7 +131,7 @@ span {
 }
 
 #navigation a:hover {
-	background: #BFEFFF;
+	background: #d0e1ee;
 	/*87CEEB dark*/
 	/*ADD8E6*/
 	/*B2DFEE*/
@@ -254,41 +254,37 @@ span {
 /* Contact
 ================================================== */
 
-#contact #linkedin {
-	background-color:#0d4167;
+#contact.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #F7F7F7;
 }
 
-#contact #linkedin i {
-	color:#156cab;
+#contact #contact-background {
+	background-image: url('../images/contact2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	padding: 0;
+	z-index: -10;
+	width: 100%;
+	height: 400px;	
 }
 
-#contact #facebook {
-	background-color:#25335a;
-}
-
-#contact #facebook i {
-	color:#3b5290;
-}
-
-#contact #github{
-	background-color:#000;
-}
-
-#contact #github i{
-	color:#262626;
-}
-
-#contact #email{
-	background-color:#9a2625
-}
-
-#contact #email i {
-	color:#d03c3b
+#contact p {
+	margin-left: 55%;
+	margin-top: 5%;
+	position: absolute;
+	text-align: right;
 }
 
 #contact .info {
+	position: relative;
+	display: block;
 	float: right;
 	margin-right: 10%;
+	margin-top: 14em;
 }
 
 #contact a {
@@ -300,12 +296,14 @@ span {
 	margin: .5em 1.666666666%;
 	text-transform:uppercase;
 	text-decoration:none;
-	color:white;
+}
+
+#contact a:hover {
 	box-shadow: 0px 0px 15px #858585; 
 }
 
 #contact i {
-	padding-top: .2em;
+	padding-top: .12em;
 	padding-right: .5em;
 	float:right;
 	vertical-align: middle;
@@ -321,7 +319,88 @@ span {
 	padding-left: 1em;
 }
 
-#contact a:hover {
+#contact #email {
+	background-color:#9a2625;
+	color: #f8e3e3;
+}
+
+#contact #email span {
+	color:#de7675;
+}
+
+#contact #email i {
+	color:#d03c3b;
+}
+
+#contact #email:hover span {
+	color:#ecb1b0;
+}
+#contact #email:hover i {
+	color:#de7675;
+}
+
+#contact #linkedin {
+	background-color:#0d4167;
+	color: #d9e7f1;
+}
+
+#contact #linkedin span {
+	color:#4389bb;
+}
+
+#contact #linkedin i {
+	color:#156cab;
+}
+
+#contact #linkedin:hover i {
+	color:#5b98c4;
+}
+
+#contact #linkedin:hover span {
+	color:#a1c4dd;
+}
+
+#contact #github{
+	background-color:#000;
+	color:#ccc;
+}
+
+#contact #github span {
+	color:#8A8A8A;
+}
+
+#contact #github i {
+	color:#4F4F4F;
+
+}
+
+#contact #github:hover span {
+	color: #B8B8B8;
+}
+
+#contact #github:hover i {
+	color:#808080;
+}
+
+#contact #facebook {
+	background-color:#25335a;
+	color: #c9d0e1;
+}
+
+#contact #facebook span {
+	color:#7182af;
+}
+
+#contact #facebook i {
+	color:#4e639b;
+}
+
+#contact #facebook:hover span {
+	color:#b8c0d7;
+}
+
+#contact #facebook:hover i {
+	color:#8391b9;
 }
 
 
@@ -329,7 +408,7 @@ span {
 ================================================== */
 #footer {
 	text-align: center;
-	padding: 20px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
 	color: #858585;
 	font-size: 0.8em;
 }
