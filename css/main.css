@@ -213,7 +213,7 @@ span {
 	display: inline;
 	height: 100px;
 	width: auto;
-	padding-left: 1em;
+	padding-left: 3%;
 	padding-right: 1.3em;
 }
 
@@ -249,6 +249,81 @@ span {
 ================================================== */
 
 	/*see component.css*/
+
+
+/* Contact
+================================================== */
+
+#contact #linkedin {
+	background-color:#0d4167;
+}
+
+#contact #linkedin i {
+	color:#156cab;
+}
+
+#contact #facebook {
+	background-color:#25335a;
+}
+
+#contact #facebook i {
+	color:#3b5290;
+}
+
+#contact #github{
+	background-color:#000;
+}
+
+#contact #github i{
+	color:#262626;
+}
+
+#contact #email{
+	background-color:#9a2625
+}
+
+#contact #email i {
+	color:#d03c3b
+}
+
+#contact .info {
+	float: right;
+	margin-right: 10%;
+}
+
+#contact a {
+	display: block;
+	padding:.4em .8em;
+	width: 250px;
+	height: 100%;
+	font-size: 110%;
+	margin: .5em 1.666666666%;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+	box-shadow: 0px 0px 15px #858585; 
+}
+
+#contact i {
+	padding-top: .2em;
+	padding-right: .5em;
+	float:right;
+	vertical-align: middle;
+}
+
+#contact span {
+	color: #D9D9D9;
+	font-size:.8em;
+	font-weight: 200;
+	font-family: "Raleway";
+	display:inline;
+	text-transform: lowercase;
+	padding-left: 1em;
+}
+
+#contact a:hover {
+}
+
 
 /* Footer
 ================================================== */
