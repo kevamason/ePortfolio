@@ -7,6 +7,8 @@ merki.ca
 
 Parallax scrolling: http://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641
 
+expanding preview: http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/
+
 Includes information such as:
 - ABOUT: name, bio (who I am, athletic background, education, what I'm aspiring towards)
 	like Vlad's

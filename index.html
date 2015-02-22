@@ -16,11 +16,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" href="stylesheets/main.css">
-
-	<link rel="stylesheet" href="stylesheets/thumbnailgrid.css" type="text/css">
-
-	<link rel="stylesheet" href="stylesheets/contact.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<!-- Thumbnail Grid -->
+	<link rel="stylesheet" type="text/css" href="css/component.css">
+	<script src="js/modernizr.custom.js"></script>
 
 </head>
 
@@ -214,56 +214,52 @@
 	<div id="projects" class="container-fluid">
 		<h1 class="title">Projects & Programs</h1>
 
-		<h2>Click on an image to make it larger and read more about it</h2>
+		<p>Click on an image to make it larger and read more about it.</p>
+		
 		<ul id="og-grid" class="og-grid">
 			<li>
-				<a href="" data-largesrc="img/appno_os.png" data-title="Appnovation OS" data-description="I worked on this site during my time at <a href='http://www.appnovation.com/' target='_blank'>Appnovation</a> on a co-op work term. The site is meant to develop a community around the open source projects the company creates. I was the sole back-end developer on the site and was responsible for a complete upgrade/redesign from what they already had which, when I was put on the project, was just a basic Drupal site. The only thing that really remains from the initial implementation is the forums.<br /><br />Being the only back-end dev on the project meant I was responsible in assisting the front-end and fixing any problems QA found by myself. This gave me a test of being a lead on a project as I often had people coming to me for help or problems. It also meant I couldn't rely on anyone elses expereince when solving problems; I really had to look and figure things out myself which meant I learned a lot.<br /><br />You can view the website <a href='http://www.appnovationos.org' target='_blank'>here</a>.">
-				<img src="images/introImg.png" height="250px">
-			</a>
-		</li>
+				<a href data-largesrc="images/introImg.png" data-title="Test 1" data-description="Description and test 1.">
+					<img src="images/introImg.png" height="250px" alt="img01"/>
+				</a>
+
+				<div class="og-expander">
+					<div class="og-expander-inner">
+						<span class="og-close"></span>
+						<div class="og-fullimg">
+							<div class="og-loading" style="display: none;"></div>
+							<img src="images/introImg.png" style="display: inline;">
+						</div>
+						<div class="og-details">
+							<h3>Test 1</h3>
+							<p>Description and test 1.</p>
+							<a href="http://cargocollective.com/jaimemartinez/" target="_blank">Visit my website</a>
+						</div>
+					</div>
+				</div>
+
+			</li>
 			<li>
-				<a href="" data-largesrc="img/food_trucks.png" data-title="Vancouver Food Trucks" data-description="At UBC in winter term 1 (September to December) in 2013 I took a Software Engineering course (CPSC 310). The big project for that class was to develop a web application, pulling data from <a href='http://data.vancouver.ca' target='_blank'>Data Vancouver</a> and taking advantage of social media features provided by Facebook/Google/Twitter. My team, consisting of myself and 3 others, chose to make an app that would plot all the food trucks in Vancouver on a map and allow users to rate and review them. You can view the finished product <a href='http://van-food-trucks.appspot.com/' target='_blank'>here</a>.<br /><br /> Personally, I was responsible for the implementations of Google Maps as well as working on the Facebook Like/Share button. The project was written in Java and compiled using GWT (you can view the source code <a href='https://github.com/johnjw59/Vancouver_Food_Trucks' target='_blank'>here</a> if that's your thing).">
-			<img src="images/introImg.png" height="250px" />
-		</a>
-	</li>
-	<li>
-		<a href="" data-largesrc="img/chapel.png" data-title="Chapel" data-description="Back in 2012, a few of my friends who were involved in a couple youth groups in South Vancouver started a monthly youth worship night called Chapel. I've been helping out at it since the beginning and while we started out small, we now have three locations in Greater Vancouver. As the techy one on the team I offered to make a website once we realized that what we had started was getting pretty big.<br /><br />
-		The website was started in 2013, but when you're dealing with something that is growing so fast, it's hard to keep up. We went through two different designs and requirements over about a year before we settled on what you see <a href='www.chapelvancouver.com' target='_blank'>here</a>. While building the site I made sure to make the website easily expandable as I know things will probably change a lot within another year. We have lots of new features planned as well, making the website a very iterative process.">
-		<img src="images/introImg.png" height="250px" />
-	</a>
+				<a href data-largesrc="images/introImg.png" data-title="Test 2" data-description="Description and test 2.">
+					<img src="images/introImg.png" height="250px" alt="img02"/>
+				</a>
 
+				<div class="og-expander">
+					<div class="og-expander-inner">
+						<span class="og-close"></span>
+						<div class="og-fullimg">
+							<div class="og-loading"></div>
+							<img src="images/introImg.png">
+						</div>
+						<div class="og-details">
+							<h3>Test 2</h3>
+							<p>Description and test 2.</p>
+						</div>
+					</div>
+				</div>
 
-</li>
-<li>
-	<a href="" data-largesrc="img/clixmag.png" data-title="Clixmag" data-description="While I was working at the <a href='http://www.rysa.bc.ca' target='_blank' >Richmond Youth Service Agency</a> in the summer of 2013, I was asked to create a new website for their youth-run blog, Clixmag. I decided to use Wordpress to develop the site as it would allow the youth to add their posts and manage the website themselves in my absence. While I was working on the website however I found that certain themes and plugins didn't do or look exactly as I wanted so I took to editing them. This required me to learn some PHP and Wordpress hooks but in the end I'm very pleased with the results and so are the youth!
+			</li>
+		</ul>
 
-	<br /><br />You can view the site <a href='http://www.clixmag.ca' target='_blank' >here</a>.">
-	<img src="images/introImg.png" height="250px" />
-</a>
-</li>
-<li>
-	<a href="" data-largesrc="img/portfolio.png" data-title="Portfolio" data-description="Look familiar? It feels weird to feature my portfolio on my portfolio but I did create this website from scratch (no templates here!) and I do think some of the stuff going on under the hood deserves some attention. This is actually the first website I've created with PHP in mind. After being exposed to PHP in the Summer of 2013, I started to get really excited thinking about all the great things it could do for me and how much easier it would make building a website. I had had to make a small portfolio for a job application that summer as well which got me thinking that maybe I should be putting everything I have worked on online.<br /><br /> 
-	Each of these gallery pages is built dynamically by scanning a directory and structuring the HTML automatically using PHP. I also wrote the Javascript for the dynamic resizing of the homepage. This project was really a great learning experience for me and will hopefully come in handy! It also won the <strong>Judges Choice Award</strong> in the 2014 e-Portfolio Competition at UBC!<br /><br />
-	I'd give you the link to this site but I think you've already found it...">
-	<img src="images/introImg.png" height="250px" />
-</a>
-</li>
-<li>
-	<a href="" data-largesrc="img/serious_soups.png" data-title="Serious Soups at Home" data-description="This was the first, large-scale website I built. It was an end-of-term project for a Web Development course I took at Langara College in Vancouver. The website was built for a small soup selling business here in Vancouver. After I finished the course I continued to upkeep and work on the website adding jQuery based features such as randomly including different pictures on the homepage and another which used cookies to inform users of changes to pricing only on their first visit.<br /><br />While the website is no longer active, you can see a copy I have of it <a href='../serious_soups/' target='_blank'>here</a>.">
-	<img src="images/introImg.png" height="250px" />
-</a>
-</li>
-<li>
-	<a href="" data-largesrc="img/translink_redesign.png" data-title="Vancouver Transit Ticket Kiosk Prototype" data-description="As you can probably tell from looking around this website, I am very interested in design. This is why I decided to take a Human-Computer Interaction course at UBC in the September-December term in 2013. The project for the course was to redesign an existing interface. My team and I decided to redesign the ticket dispensing kiosks at the Skytrain stations in Vancouver. The project consisted of doing a usability study of the current interface, a low-fidelity prototype and medium-fidelity prototype of our redesign, another usability study except with our new interface and finally a presentation. You can view our medium-fidelity prototype <a href='../translink_redesign/1-home.html' target='_blank'>here</a> and watch a recording of our end-of-term presentation <a class='fancybox fancybox.iframe' href='http://www.youtube.com/embed/p9C4NRnFJew'>here</a>.">
-	<img src="images/introImg.png" height="250px" />
-</a>
-</li>
-<li>
-	<a href="" data-largesrc="img/sustainability_tour.png" data-title="UBC Sustainability Tour" data-description="When I first transferred to UBC in September of 2012, one of the classes I was taking was on Software Construction (CPSC 210). For those at UBC this was to be the first  real-world programming course they took, introducing them to development in Java. I already had some exposure to Java but there was still much for me to learn. The end-of-term project for this course was to implement the routing services for a UBC Sustainability Tour app for Android. I used Open Street Map to get a JSON object containing the waypoints the user needed to travel through on their tour and then plotted the route on the map.">
-		<img src="images/introImg.png" height="250px" />
-	</a>
-</li>				
-</ul>
 
 
 	</div> <!--projects close-->
@@ -276,15 +272,7 @@
 	<div id="contact" class="container-fluid">
 		<h1 class="title">Contact</h1>
 
-		<p>If you've found my profile interesting or want to discuss something with me, I'd love to connect with you!</p>
-		<ul id="contactbox">
-			<li id="email"><a href="mailto:rob@merki.ca">Email<i class="fa fa-envelope fa-lrg"></i><span>rob@merki.ca</span></a></li>
-			<li id="linkedin"><a href="http://ca.linkedin.com/in/rmerki">LinkedIn<i class="fa fa-linkedin fa-lrg"></i><span>/in/rmerki</span></a></li>
-			<li id="twitter"><a href="https://twitter.com/robmerki">Twitter<i class="fa fa-twitter fa-lrg"></i><span>@robmerki</span></a></li>
-			<li id="github"><a href="https://github.com/robmerki">GitHub<i class="fa fa-github fa-lrg"></i><span>/robmerki</span></a></li>
-			<li id="facebook"><a href="http://www.facebook.com/merki">Facebook<i class="fa fa-facebook fa-lrg"></i><span>/merki</span></a></li>
-			<li id="medium"><a href="https://medium.com/@robmerki">Medium<i class="fa fa-pencil fa-lrg"></i><span>@robmerki</span></a></li>
-		</ul>
+		
 
 	</div><!--contact close-->
 
@@ -304,8 +292,13 @@
 </script>
 <!-- jQuery -->
 <script src="js/jquery-1.11.2.js"></script>
-
-<script href="js/grid.js" type="text/javascript"></script>
+<!-- Thumbnail Grid -->
+<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
 
 <script type="text/javascript" src="js/main.js"></script>
 
