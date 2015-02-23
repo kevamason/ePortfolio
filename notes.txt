@@ -1,32 +1,26 @@
 change to mobile mode at width 775px
 
-napontaratan.com
-vladzaharia.com
-jwiebe.ca
-merki.ca
-
 Parallax scrolling: http://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641
 
 expanding preview: http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/
 
+Next iteration:
+- add hobbies/interests
+- fix navbar... (active class & mobile)
+
 Includes information such as:
-- ABOUT: name, bio (who I am, athletic background, education, what I'm aspiring towards)
-	like Vlad's
-- SKILLS: Code (ranking - Languages & Tools), Strategy (list - management, design methodologies, team building, )
-	like Napon's
+- ABOUT: name, bio, who I am, athletic background, education, what I'm aspiring towards
+- SKILLS: code & other
 - EXPERIENCE: 
-	like Vlad's (circle, description, chronological)
 	Work Experience
 		- Visier (Product Development)
 		- WRASA (Head & Reg coach)
 			- coaching retreat
 			- Hall of Fame
-		- HollisWealth (Book Keeper -> Web Developer)
 	Volunteer Experience
 		- JDC West
 		- VP Logistics
 - PROJECTS & PROGRAMS: Past Projects
-	square icons w/ expanding info like Wiebe's
 	- personal projects
 		- ePortfolio
 	- school projects
@@ -34,7 +28,7 @@ Includes information such as:
 		- cs304
 		- cs310
 	- volunteer leadership program
-- HOBBIES & INTERESTS (maybe)
+- HOBBIES & INTERESTS (next iteration)
 	photos
 	- Athletic
 		- Swimming
@@ -47,5 +41,5 @@ Includes information such as:
 	- Photography (& Traveling)
 		- NYC photo
 		- Kate Slacklining
+		- hawaii photos
 - CONTACT: Contact Information
-	like Merki's

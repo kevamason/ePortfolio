@@ -74,6 +74,10 @@ span {
 	text-align: right;
 }
 
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 /* #Home
 ================================================== */
 #home {
@@ -163,12 +167,17 @@ span {
 
 .about-info {
 	display: table;
-	margin-left: 2em;
+	margin-left: 4em;
+}
+
+#about h1 {
+	margin-bottom: 30px;
 }
 
 .about-info p {
 	display: table-cell;
 	vertical-align: middle;
+	font-size: 110%;
 }
 
 #about img {
@@ -176,6 +185,7 @@ span {
 	height: 350px;
 	width: auto;
 	margin-left: 2em;
+	margin-right: 4em;
 }
 
 
@@ -223,15 +233,19 @@ span {
 	display: inline;
 	height: 100px;
 	width: auto;
-	padding-left: 3%;
+	padding-left: 5%;
 	padding-right: 1.3em;
+}
+
+.work-list div:not(.work-info) {
+	padding-bottom: 1.5em;
 }
 
 .work-info {
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
-	width: 80%;
+	width: 75%;
 }
 
 .work-company {
@@ -255,12 +269,28 @@ span {
 	font-size: 90%;
 }
 
+.work-about {
+	font: inherit;
+	color: #4c4c4c;
+	font-size: 95%;
+	font-weight: 400;
+	display: block;
+	margin-left: -2em;
+	margin-right: 7em;
+}
+
+.work-info p {
+	color: #000;
+	padding-left: 2em;
+}
+
 /* Projects & Programs
 ================================================== */
 	/*see component.css*/
 
-#projects p {
+#projects h4 {
 	text-align: center;
+	font-family: "Raleway";
 	font-size: 140%;
 	font-weight: 200;
 }
@@ -272,6 +302,11 @@ span {
 	padding-left: 0px;
 	padding-right: 0px;
 	background-color: #F7F7F7;
+	padding-bottom: 30px;
+}
+
+#contact h1 {
+	padding-bottom: 30px;
 }
 
 #contact #contact-background {
@@ -280,19 +315,21 @@ span {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0 auto;
-	padding: 0;
 	z-index: -10;
 	width: 100%;
 	height: 400px;	
 }
 
 #contact p {
+	font-family: "Ubuntu";
+	font-weight: 200;
 	color: #000;
 	margin-left: 55%;
-	margin-top: 5%;
+	margin-top: 50px;
+	padding-right: 10%;
 	position: absolute;
-	text-align: right;
-	font-size: 110%;
+	text-align: left;
+	font-size: 120%;
 }
 
 #contact .info {
